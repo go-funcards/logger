@@ -2,17 +2,9 @@ module github.com/go-funcards/logger
 
 go 1.18
 
-require (
-	github.com/fatih/color v1.13.0
-	go.uber.org/zap v1.21.0
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0
-)
+require github.com/sirupsen/logrus v1.9.0
 
 require (
-	github.com/BurntSushi/toml v1.1.0 // indirect
-	github.com/mattn/go-colorable v0.1.9 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
